@@ -2,6 +2,24 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
+    "\/build\/kits\/partials\/header.kit" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/kits\/partials\/header.kit",
+      "outputAbbreviatedPath" : "\/html\/header.html",
+      "fileType" : 65536
+    },
+    "\/build\/lib\/font-awesome\/css\/font-awesome.min.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/lib\/font-awesome\/css\/font-awesome.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/build\/less\/globals\/defaults.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/build\/less\/globals\/defaults.less",
@@ -18,24 +36,6 @@
       "outputStyle" : 2,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/build\/lib\/font-awesome\/css\/font-awesome.min.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/lib\/font-awesome\/css\/font-awesome.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/app\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/index.html",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 2048
     },
     "\/build\/less\/globals\/custom-mixins.less" : {
       "ieCompatibility" : 1,
@@ -54,26 +54,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/app\/_\/js\/app.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/js\/app.min.min.js",
-      "fileType" : 64
-    },
-    "\/build\/kits\/partials\/header.kit" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/kits\/partials\/header.kit",
-      "outputAbbreviatedPath" : "\/html\/header.html",
-      "fileType" : 65536
-    },
     "\/build\/less\/libraries.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/build\/less\/libraries.less",
@@ -90,26 +70,6 @@
       "outputStyle" : 2,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/app\/_\/css\/app.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/_\/css\/app.min.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 16
-    },
-    "\/build\/lib\/jquery\/jquery.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/lib\/jquery\/jquery.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/js\/jquery.min.min.js",
-      "fileType" : 64
     },
     "\/build\/less\/globals\/mobile.less" : {
       "ieCompatibility" : 1,
@@ -137,6 +97,17 @@
       "outputStyle" : 0,
       "syntaxCheckerStyle" : 2,
       "outputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
+      "fileType" : 64
+    },
+    "\/build\/lib\/jquery\/jquery.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/lib\/jquery\/jquery.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/js\/jquery.min.min.js",
       "fileType" : 64
     },
     "\/build\/kits\/partials\/footer.kit" : {
@@ -202,10 +173,10 @@
       "initialSize" : 47622,
       "fileType" : 8192
     },
-    "\/build\/less\/globals\/fonts.less" : {
+    "\/build\/less\/globals\/colors.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/build\/less\/globals\/fonts.less",
-      "outputAbbreviatedPath" : "\/app\/css\/fonts.css",
+      "inputAbbreviatedPath" : "\/build\/less\/globals\/colors.less",
+      "outputAbbreviatedPath" : "\/app\/css\/colors.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -219,10 +190,10 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/build\/less\/globals\/colors.less" : {
+    "\/build\/less\/globals\/fonts.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/build\/less\/globals\/colors.less",
-      "outputAbbreviatedPath" : "\/app\/css\/colors.css",
+      "inputAbbreviatedPath" : "\/build\/less\/globals\/fonts.less",
+      "outputAbbreviatedPath" : "\/app\/css\/fonts.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
