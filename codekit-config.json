@@ -2,28 +2,38 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/build\/kits\/partials\/header.kit" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
+    "\/build\/less\/globals\/color-swatches.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/kits\/partials\/header.kit",
-      "outputAbbreviatedPath" : "\/html\/header.html",
-      "fileType" : 65536
+      "inputAbbreviatedPath" : "\/build\/less\/globals\/color-swatches.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/build\/less\/globals\/color-swatches.png",
+      "initialSize" : 47622,
+      "fileType" : 8192
     },
-    "\/build\/lib\/font-awesome\/css\/font-awesome.min.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/lib\/font-awesome\/css\/font-awesome.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/build\/less\/globals\/defaults.less" : {
+    "\/build\/less\/globals\/fonts.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/build\/less\/globals\/defaults.less",
-      "outputAbbreviatedPath" : "\/app\/css\/defaults.css",
+      "inputAbbreviatedPath" : "\/build\/less\/globals\/fonts.less",
+      "outputAbbreviatedPath" : "\/app\/css\/fonts.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 1,
+      "shouldRunBless" : 1,
+      "hidden" : 1,
+      "strictMath" : 0,
+      "outputStyle" : 2,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/build\/less\/globals\/colors.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/build\/less\/globals\/colors.less",
+      "outputAbbreviatedPath" : "\/app\/css\/colors.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -71,6 +81,17 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/build\/js\/app.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/build\/js\/app.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
+      "fileType" : 64
+    },
     "\/build\/less\/globals\/mobile.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/build\/less\/globals\/mobile.less",
@@ -87,17 +108,6 @@
       "outputStyle" : 2,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/build\/js\/app.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/build\/js\/app.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
-      "fileType" : 64
     },
     "\/build\/lib\/jquery\/jquery.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -162,21 +172,19 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/build\/less\/globals\/color-swatches.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/build\/lib\/font-awesome\/css\/font-awesome.min.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/less\/globals\/color-swatches.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/build\/less\/globals\/color-swatches.png",
-      "initialSize" : 47622,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/build\/lib\/font-awesome\/css\/font-awesome.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
-    "\/build\/less\/globals\/colors.less" : {
+    "\/build\/less\/globals\/defaults.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/build\/less\/globals\/colors.less",
-      "outputAbbreviatedPath" : "\/app\/css\/colors.css",
+      "inputAbbreviatedPath" : "\/build\/less\/globals\/defaults.less",
+      "outputAbbreviatedPath" : "\/app\/css\/defaults.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -190,22 +198,14 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/build\/less\/globals\/fonts.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/build\/less\/globals\/fonts.less",
-      "outputAbbreviatedPath" : "\/app\/css\/fonts.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
+    "\/build\/kits\/partials\/header.kit" : {
       "ignoreWasSetByUser" : 1,
-      "shouldRunBless" : 1,
+      "ignore" : 1,
       "hidden" : 1,
-      "strictMath" : 0,
-      "outputStyle" : 2,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/kits\/partials\/header.kit",
+      "outputAbbreviatedPath" : "\/html\/header.html",
+      "fileType" : 65536
     },
     "\/build\/less\/app.less" : {
       "ieCompatibility" : 1,
